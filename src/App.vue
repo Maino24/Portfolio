@@ -1,18 +1,21 @@
 <template>
   <div>
     <HeaderComp/>
+    <AboutMe/>
   </div>
 </template>
 
 <script>
 
-import HeaderComp from './components/HeaderComp.vue'
+import HeaderComp from './components/HeaderComp.vue';
+import AboutMe from './components/tags/AboutMe.vue';
 
 export default {
   name: 'App',
 
   components: {
-     HeaderComp
+     HeaderComp,
+     AboutMe
   }
 }
 </script>

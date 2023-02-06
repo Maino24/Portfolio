@@ -30,16 +30,18 @@ export default {
   height: 100vh;
 }
 .containerNP{
+    padding-top: 15%;
     width: 70%;
     margin: auto;
     
     .name{
     color: white;
     }
-.profession{
-    color: white;
-    
-    }
+
+    .profession{
+        color: white;
+        
+        }
 }   
 
 nav{
