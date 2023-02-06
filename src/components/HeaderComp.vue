@@ -1,59 +1,59 @@
 <template>
-  <div class="">
-    
-  </div>
+    <div class="background">
+        <div class="containerNP">
+            <h1 class="name animated bounceInDown">I am Gabriele Mainetti</h1>
+        <h1 class="profession animated bounceInDown">Junior Full Stack Web Developer</h1>
+        </div>
+        
+        <!-- <ul>
+            <li><button>About Me</button></li>
+            <li><button>Skills</button></li>
+            <li><button>Projects</button></li>
+            <li><button>Resume</button></li>
+            <li><button>Contacts</button></li>
+        
+        </ul>-->
+        
+    </div>
 </template>
 
 <script>
-
-
-
 export default {
-  name: 'HeaderComp',
- 
-  data() {
-    return {
-      inputText: '',
-    }
-  },
-
+    name: 'HeaderComp',
 }
-
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+<style lang="scss">
+.background{
+  background-color: #202123;
+  width: 100vw;
+  height: 100vh;
 }
+.containerNP{
+    width: 70%;
+    margin: auto;
+    
+    .name{
+    color: white;
+    }
+.profession{
+    color: white;
+    
+    }
+}   
 
-.header{
-  height: 15%;
-  background-color: black;
-  display: flex;
-  margin: auto;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px;
-
-  img{
-    width: 15%;
-  }
-
-  .inputButton{
+nav{
     display: flex;
+   /* ul{
+        display: flex;
+        
+        li{
+        list-style: none;
+        margin: auto;
+        justify-content: space-around;
+        }
+    }*/
     
-
-  button{
-    padding: 8px;
-    
-  }
-
-  }
-
 }
 
 </style>
