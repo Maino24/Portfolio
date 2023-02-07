@@ -2,20 +2,26 @@
   <div>
     <HeaderComp/>
     <AboutMe/>
+    <ProjectsComp/>
+    <ResumeComp/>
   </div>
 </template>
 
 <script>
 
 import HeaderComp from './components/HeaderComp.vue';
-import AboutMe from './components/tags/AboutMe.vue';
+import AboutMe from './components/AboutMe.vue';
+import ProjectsComp from './components/ProjectsComp.vue';
+import ResumeComp from './components/ResumeComp.vue';
 
 export default {
   name: 'App',
 
   components: {
      HeaderComp,
-     AboutMe
+     AboutMe,
+     ProjectsComp,
+     ResumeComp
   }
 }
 </script>

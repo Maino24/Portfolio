@@ -43,7 +43,7 @@ export default {
             .containerImg{
                 width: calc(100% /2);
                 height: 60vh;
-                background-image: url("../../assets/fototessera.jpg");
+                background-image: url("../assets/fototessera.jpg");
                 background-size: contain,  cover;
                 background-repeat: no-repeat;
 
