@@ -15,7 +15,7 @@
                 </div>
                 <div class="singoleCard3">
                     <div class="containerText3">
-                        <h3>Equipment</h3>
+                        <h3>Skills</h3>
                     </div>
                 </div>
             </div>
@@ -38,14 +38,14 @@ export default {
   box-sizing: border-box;
 }
 .backgroundR{
-  border-top: 10px solid white;
+  //border-top: 10px solid white;
   background-color: #202123;
   width: 100vw;
   height: 100vh;
   .containerR{
     width: 70%;
     margin: auto;
-    padding: 10% 0;
+    padding: 5% 0;
     .title{
         font-size: 4rem;
         color: white;
@@ -54,7 +54,7 @@ export default {
         }
     }
     .containerBottomR{
-        margin-top: 5vh;
+        padding-top: 10vh;
         width: 100%;
         display: flex;
         justify-content: space-between;
