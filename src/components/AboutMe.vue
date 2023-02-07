@@ -26,7 +26,7 @@ export default {
   box-sizing: border-box;
 }
 .backgroundAM{
-  border-top: 10px solid white;
+  //border-top: 10px solid white;
   background-color: #202123;
   width: 100vw;
   height: 100vh;
