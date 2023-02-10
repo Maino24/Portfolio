@@ -1,8 +1,8 @@
 <template>
     <div class="background">
         <div class="containerNP">
-            <h1 class="name animated bounceInDown">I am Gabriele Mainetti</h1>
-        <h1 class="profession animated bounceInDown">Junior Full Stack Web Developer</h1>
+            <h1 class="name animated bounceInDown">Gabriele Mainetti</h1>
+            <h1 class="profession animated bounceInDown">Junior Full Stack Web Developer</h1>
         </div>
         
         <!-- <ul>
@@ -25,7 +25,7 @@ export default {
 
 <style lang="scss">
 .background{
-  background-color: #202123;
+  background-color: blue;
   width: 100vw;
   height: 100vh;
 }
@@ -36,11 +36,12 @@ export default {
     
     .name{
     color: white;
+    font-size: 5rem;
     }
 
     .profession{
         color: white;
-        
+        font-size: 4rem;
         }
 }   
 

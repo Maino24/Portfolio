@@ -5,17 +5,57 @@
             <div class="containerBottomR">
                 <div class="singoleCard">
                     <div class="containerText1">
-                        <h3>Experience</h3>  
+                        <h2 class="experience">Experience</h2> 
+                        <div class="firstExperience">
+                            <h3>Jr Full Stack Web Developer Trainee</h3>
+                            <h4>Boolean Careers</h4>
+                            <h4>Settembre 2022 - Marzo 2023 | 6 mesi</h4>
+                            <p class="startParag">Sviluppo di progetti ispirati a web app esistenti come: Netflix,
+                                Whatsapp Web, Spotify, Zoom, Zalando ... .
+                            </p>
+                            <p>Tutti i progetti svolti avevano una scadenza e questo mi ha permesso
+                            di avvicinarmi a ciò che avviene effettivamente nel mondo del lavoro.
+                            </p>
+                        </div>
+                        <div class="secondExperience">
+                            <h3>Impiegato Contabile</h3>
+                            <h4>Midac S.r.l.</h4>
+                            <h4>Agosto 2021 - Agosto 2022| 1 anno</h4>
+                            <p class="startParag">Impiegato contabile presso studio commercialista. Gestione
+                                contabilità, mail, chiamate per un gruppo di società.
+                            </p>
+                        </div> 
                     </div>
                 </div>
                 <div class="singoleCard2">
                     <div class="containerText2">
-                        <h3>Education</h3>
+                        <h3 class="education">Education</h3>
+                        <div class="firstEducation">
+                            <h3>Boolean Careers</h3>
+                            <h4>Master Sviluppatore Web Full Stack</h4>
+                            <h4>Settembre 2022 - Febbraio 2023 | 6 mesi</h4>
+                            <p class="startParag">Corso completo e intensivo di 700 ore, pratiche e teoriche, sullo
+                                sviluppo web lato Front-End e Back-End.
+                            </p>
+                            <p>Le tecnologie studiate e utilizzate sono: Html, Css, Sass, Bootstrap,
+                                Javascript, VueJS, Axios, MySQL, PHP, Laravel.
+                            </p>
+                        </div>
+                        <div class="secondEducation">
+                            <h3>IS Saraceno-Romegialli</h3>
+                            <h4>IS Saraceno-Romegialli
+                                Istituto tecnico settore economico - Indirizzo
+                                "Amministrazione, Finanza e Marketing" - Articolazione
+                                "Sistemi Informativi Aziendali"
+                            </h4>
+                            <h4>Settembre 2018 - Giugno 2021</h4>
+                            <p class="startParag">Tecnologie studiate ed utilizzate: Html, Css, Visual Basic                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="singoleCard3">
                     <div class="containerText3">
-                        <h3>Skills</h3>
+                        <h3 class="skills">Skills</h3>
                     </div>
                 </div>
             </div>
@@ -39,7 +79,7 @@ export default {
 }
 .backgroundR{
   //border-top: 10px solid white;
-  background-color: #202123;
+  background-color: rgb(13, 13, 207);
   width: 100vw;
   height: 100vh;
   .containerR{
@@ -50,7 +90,7 @@ export default {
         font-size: 4rem;
         color: white;
         .underline{
-            border-bottom: 5px solid blue;
+            border-bottom: 5px solid black;
         }
     }
     .containerBottomR{
@@ -66,14 +106,32 @@ export default {
             border-left: 1px solid black;
             height: 50vh;
             .containerText1{
-                padding: 20% 15%;
+                padding: 5% 10%;
                 border-top: 4px solid rgb(0, 255, 145);
-                    h3{
-                    color: white;
+                color: white;
+                .experience{
+                    padding-bottom: 5%;
+                    font-size: 2rem;
+                    color: rgb(204, 204, 16);  
+                }
+                .firstExperience{
+                    border-bottom: 1px solid white;
+                    padding: 4% 0;
+                    .startParag{
+                        padding-top: 3%;
                     }
+                }
+                .secondExperience{
+                    padding: 4% 0;
+                    .startParag{
+                        padding-top: 3%;
+                    }
+                }
+                    
             }
-            
         }
+
+
         .singoleCard2{
             flex-basis: 30%;
             margin-top: 5vh;
@@ -84,10 +142,27 @@ export default {
             border-left: 1px solid black;
             height: 50vh;
             .containerText2{
-                padding: 20% 15%;
-                    h3{
-                    color: white;
+                padding: 5% 10%;
+                    .education{
+                    padding-bottom: 5%;
+                    font-size: 2rem;
+                    color: rgb(204, 204, 16); 
                     }
+                    .firstEducation{
+                    color: white;
+                    border-bottom: 1px solid white;
+                    padding: 4% 0;
+                        .startParag{
+                            padding-top: 3%;
+                        }
+                    }
+                    .secondEducation{
+                        color: white;
+                        padding: 4% 0;
+                        .startParag{
+                            padding-top: 3%;
+                        }
+                    }   
             }
         }
         .singoleCard3{
@@ -98,9 +173,11 @@ export default {
             border-left: 1px solid black;
             height: 50vh;
             .containerText3{
-                padding: 20% 15%;
-                    h3{
-                    color: white;
+                padding: 5% 10%;
+                    .skills{
+                    padding-bottom: 5%;
+                    font-size: 2rem;
+                    color: rgb(204, 204, 16); 
                     }
             }
         }

@@ -32,7 +32,7 @@ export default {
 }
 .backgroundP{
   //border-top: 10px solid white;
-  background-color: #202123;
+  background-color: blue;
   width: 100vw;
   height: 100vh;
   .containerP{
