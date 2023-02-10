@@ -1,5 +1,6 @@
 <template>
     <div class="backgroundAM">
+        <a href=""  name="AboutMe"></a>
         <div class="containerAM">   
             <h1 class="titleAM">About Me</h1>
             <div class="containerDown">
@@ -37,9 +38,9 @@ export default {
   box-sizing: border-box;
 }
 .backgroundAM{
-  //border-top: 10px solid white;
+  border-top: 2px solid black;
   background-color: blue;
-  width: 100vw;
+  //width: 100vw;
   height: 100vh;
   .containerAM{
     padding-top: 2%;

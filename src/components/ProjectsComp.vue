@@ -1,5 +1,6 @@
 <template>
     <div class="backgroundP">
+        <a href="" name="projects"></a>
         <div class="containerP">
            <h1 class="title">My Projects</h1>
            <div class="grid">
@@ -31,9 +32,9 @@ export default {
   box-sizing: border-box;
 }
 .backgroundP{
-  //border-top: 10px solid white;
+  border-top: 2px solid black;
   background-color: blue;
-  width: 100vw;
+  //width: 100vw;
   height: 100vh;
   .containerP{
     width: 70%;

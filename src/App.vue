@@ -4,6 +4,7 @@
     <AboutMe/>
     <ProjectsComp/>
     <ResumeComp/>
+    <ContactsComp/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import HeaderComp from './components/HeaderComp.vue';
 import AboutMe from './components/AboutMe.vue';
 import ProjectsComp from './components/ProjectsComp.vue';
 import ResumeComp from './components/ResumeComp.vue';
+import ContactsComp from './components/ContactsComp.vue';
 
 export default {
   name: 'App',
@@ -21,7 +23,8 @@ export default {
      HeaderComp,
      AboutMe,
      ProjectsComp,
-     ResumeComp
+     ResumeComp,
+     ContactsComp
   }
 }
 </script>

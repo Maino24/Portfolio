@@ -1,5 +1,6 @@
 <template>
     <div class="backgroundR">
+        <a href="" name="resume"></a>
         <div class="containerR">        
             <h1 class="title">Resu<span class="underline">me</span></h1>
             <div class="containerBottomR">
@@ -63,7 +64,9 @@
                             <img class="logo" src="../assets/JS.png" alt="logo">
                             <img class="logo" src="../assets/VUEJS.png" alt="logo"> 
                             <img class="logo" src="../assets/nodejs.png" alt="logo"> 
+                            <img class="logo" src="../assets/BOOT.png" alt="logo">
                             <img class="logo" src="../assets/PHP.png" alt="logo">
+                            <img class="logo" src="../assets/MYSQL.png" alt="logo">
                             <img class="logo" src="../assets/phpMy.png" alt="logo"> 
                             <img class="logo" src="../assets/laravel.png" alt="logo">
                             <img class="logo" src="../assets/git.png" alt="logo">
@@ -90,23 +93,23 @@ export default {
   box-sizing: border-box;
 }
 .backgroundR{
-  //border-top: 10px solid white;
+  border-top: 2px solid black;
   background-color: rgb(13, 13, 207);
-  width: 100vw;
+  //width: 100vw;
   height: 100vh;
   .containerR{
     width: 70%;
     margin: auto;
-    padding: 5% 0;
     .title{
         font-size: 4rem;
         color: white;
+       padding: 3% 0;
         .underline{
             border-bottom: 5px solid black;
         }
     }
     .containerBottomR{
-        padding-top: 10vh;
+        //padding-top: 10vh;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -116,7 +119,7 @@ export default {
             border-bottom: 1px solid black;
             border-right: 1px solid black;
             border-left: 1px solid black;
-            height: 50vh;
+            height: 70vh;
             .containerText1{
                 padding: 5% 10%;
                 border-top: 4px solid rgb(0, 255, 145);
@@ -152,7 +155,7 @@ export default {
             border-bottom: 1px solid black;
             border-right: 1px solid black;
             border-left: 1px solid black;
-            height: 50vh;
+            height: 70vh;
             .containerText2{
                 padding: 5% 10%;
                     .education{
@@ -184,7 +187,7 @@ export default {
             border-bottom: 1px solid black;
             border-right: 1px solid black;
             border-left: 1px solid black;
-            height: 50vh;
+            height: 70vh;
             .containerText3{
                 padding: 5% 10%;
                     .skills{
@@ -197,7 +200,7 @@ export default {
                         flex-wrap: wrap;
                         .logo{
                             width: 15%;
-                            margin: 5% 5%;
+                            margin: 7% 7%;
                         }
                     }
 
