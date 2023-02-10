@@ -56,6 +56,18 @@
                 <div class="singoleCard3">
                     <div class="containerText3">
                         <h3 class="skills">Skills</h3>
+                        <div class="containerLoghi">
+                            <img class="logo" src="../assets/HTML.png" alt="logo">
+                            <img class="logo" src="../assets/CSS.png" alt="logo">
+                            <img class="logo" src="../assets/SASS.png" alt="logo">
+                            <img class="logo" src="../assets/JS.png" alt="logo">
+                            <img class="logo" src="../assets/VUEJS.png" alt="logo"> 
+                            <img class="logo" src="../assets/nodejs.png" alt="logo"> 
+                            <img class="logo" src="../assets/PHP.png" alt="logo">
+                            <img class="logo" src="../assets/phpMy.png" alt="logo"> 
+                            <img class="logo" src="../assets/laravel.png" alt="logo">
+                            <img class="logo" src="../assets/git.png" alt="logo">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -165,6 +177,7 @@ export default {
                     }   
             }
         }
+
         .singoleCard3{
             flex-basis: 30%;
             border-top: 4px solid blue;
@@ -179,7 +192,16 @@ export default {
                     font-size: 2rem;
                     color: rgb(204, 204, 16); 
                     }
-            }
+                    .containerLoghi{
+                        display: flex;
+                        flex-wrap: wrap;
+                        .logo{
+                            width: 15%;
+                            margin: 5% 5%;
+                        }
+                    }
+
+                }
         }
     }
   }

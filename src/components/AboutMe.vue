@@ -16,7 +16,7 @@
                         Boolean.
                         Oggi sono uno sviluppatore web full
                         stack con molta voglia di lavorare e
-                        imparare
+                        imparare.
                     </p>
                 </div>
             </div>
