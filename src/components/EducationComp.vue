@@ -1,7 +1,7 @@
 <template>
-    <div class="backgroundE">
-      <div class="containerE">
-        <h1 class="title">Esperienza</h1>
+    <div class="backgroundEducation">
+      <div class="containerEducation">
+        <h1 class="title">Formazione</h1>
 
       </div>
     </div>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-    name: 'ExperienceComp'
+    name: 'EducationComp'
 }
 </script>
 
@@ -19,12 +19,12 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-.backgroundE{
+.backgroundEducation{
   border-top: 2px solid black;
   background-color: rgb(13, 13, 207);
   //width: 100vw;
   height: 100vh;
-  .containerE{
+  .containerEducation{
     padding-top: 2%;
     width: 70%;
     margin: auto;

@@ -9,7 +9,7 @@
                 <li><a href="#contacts">Contacts</a></li>
             </ul>
         
-            <h1 class="name animated bounceInDown">Gabriele Mainetti</h1>
+            <h1 class="name animated bounceInDown">I'm Gabriele Mainetti</h1>
             <h1 class="profession animated bounceInDown">Junior Full Stack Web Developer</h1>
         </div>
         
