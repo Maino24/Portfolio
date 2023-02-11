@@ -5,6 +5,7 @@
     <ProjectsComp/>
     <ResumeComp/>
     <ContactsComp/>
+    <ExperienceComp/>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import AboutMe from './components/AboutMe.vue';
 import ProjectsComp from './components/ProjectsComp.vue';
 import ResumeComp from './components/ResumeComp.vue';
 import ContactsComp from './components/ContactsComp.vue';
+import ExperienceComp from './components/ExperienceComp.vue';
 
 export default {
   name: 'App',
@@ -24,8 +26,12 @@ export default {
      AboutMe,
      ProjectsComp,
      ResumeComp,
-     ContactsComp
-  }
+     ContactsComp,
+     ExperienceComp
+  },
+
+  
+
 }
 </script>
 

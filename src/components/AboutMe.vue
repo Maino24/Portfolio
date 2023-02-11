@@ -39,7 +39,7 @@ export default {
 }
 .backgroundAM{
   border-top: 2px solid black;
-  background-color: blue;
+  background-color: rgb(13, 13, 207);
   //width: 100vw;
   height: 100vh;
   .containerAM{
@@ -51,22 +51,21 @@ export default {
         font-size: 4rem;
     }
     .containerDown{
-        padding-top: 5%;
+        padding: 15% 0;
         display: flex;
         justify-content: space-between;
             .containerImg{
                 width: calc(100% /2);
-                height: 60vh;
+                height: 40vh;
                 background-image: url("../assets/imgProfilo2Portfolio.png");
                 background-size: contain,  cover;
                 background-repeat: no-repeat;
-
             }    
             .containerParag{
                 width: calc(100% / 2);
                 p{
-                    padding-top: 15%;
-                    font-size: 2rem;
+                    padding-top: 5%;
+                    font-size: 1.8rem;
                 }
             }
         }

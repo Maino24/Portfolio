@@ -131,7 +131,7 @@ export default {
                 }
                 .firstExperience{
                     border-bottom: 1px solid white;
-                    padding: 4% 0;
+                    //padding: 4% 0;
                     .startParag{
                         padding-top: 3%;
                     }

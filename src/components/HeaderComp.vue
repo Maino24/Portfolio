@@ -26,7 +26,7 @@ export default {
 
 <style lang="scss">
 .background{
-  background-color: blue;
+  background-color: rgb(13, 13, 207);
   //width: 100vw;
   height: 100vh;
 }

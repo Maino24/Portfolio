@@ -1,12 +1,12 @@
 <template>
     <div class="backgroundC">
-        <a href="" name="contacts"></a>
+        
     </div>
 </template>
 
 <script>
 export default {
-    name: 'ContactsComp'
+    name: 'ExperienceComp'
 }
 </script>
 
