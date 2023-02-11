@@ -2,7 +2,33 @@
     <div class="backgroundEducation">
       <div class="containerEducation">
         <h1 class="title">Formazione</h1>
-
+        <div class="firstExperience">
+          <div class="d-flex">
+            <h3>Boolean Careers</h3>
+            <img src="../assets/logoBoolean.png" alt="">
+          </div>
+          <h4>Master Sviluppatore Web Full Stack</h4>
+          <h5>Settembre 2022 - Marzo 2023 | 6 mesi</h5>
+          <p class="parag">Corso completo e intensivo di 700 ore, pratiche e teoriche, sullo
+              sviluppo web lato Front-End e Back-End.
+              <br>
+              Le tecnologie studiate e utilizzate sono: Html, Css, Sass, Bootstrap,
+              Javascript, VueJS, Axios, MySQL, PHP, Laravel.
+          </p>
+        </div>
+        <div class="secondExperience">
+          <div class="d-flex">
+            <h3>IS Saraceno-Romegialli</h3>
+          </div>
+          <h4>Istituto tecnico settore economico - Indirizzo
+              "Amministrazione, Finanza e Marketing" - Articolazione
+              "Sistemi Informativi Aziendali"
+          </h4>
+          <h5>Settembre 2018 - Giugno 2021</h5>
+          <p class="parag">
+            Tecnologie studiate ed utilizzate: Html, Css, Visual Basic
+          </p>
+        </div>
       </div>
     </div>
 </template>
@@ -32,6 +58,20 @@ export default {
     .title{
       font-size: 4rem;
     }
+   .firstExperience{
+      border-bottom: 2px solid white;
+      padding: 5% 0;
+      div{
+        img{
+        width: 60px;
+        padding-left: 10px;
+        }
+      }      
+    }
+    .secondExperience{
+        //border-bottom: 2px solid white;
+        padding-top: 5%;
+      }
   }
 }
 </style>
