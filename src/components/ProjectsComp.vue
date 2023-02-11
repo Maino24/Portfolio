@@ -2,7 +2,7 @@
     <div class="backgroundP">
         <a href="" name="projects"></a>
         <div class="containerP">
-           <h1 class="title">My Projects</h1>
+           <h1 class="title">Progetti</h1>
            
             
                   <!--      <img src="../assets/Zalando.png" class="d-block w-100" alt="...">
