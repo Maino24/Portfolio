@@ -65,7 +65,7 @@ export default {
                 width: calc(100% / 2);
                 p{
                     padding-top: 5%;
-                    font-size: 1.8rem;
+                    font-size: 150%;
                 }
             }
         }
