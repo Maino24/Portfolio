@@ -1,6 +1,8 @@
 <template>
     <div class="backgroundC">
-        <a href="" name="contacts"></a>
+      <div class="containerC">
+        <h1 class="title">Contatti</h1>
+      </div>
     </div>
 </template>
 
@@ -21,11 +23,14 @@ export default {
   background-color: rgb(13, 13, 207);
   //width: 100vw;
   height: 100vh;
-  .containerAM{
+  .containerC{
     padding-top: 2%;
     width: 70%;
     margin: auto;
     color: white;
+    .title{
+      font-size: 4rem;
+    }
   }
 }
 </style>
