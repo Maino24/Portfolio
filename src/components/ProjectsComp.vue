@@ -12,7 +12,7 @@
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
                 </div>
-                <div class="carousel-inner">
+                <div class="carouselSize carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
                         <img src="../assets/Zalando.png" class="imgZ d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block"></div>
@@ -83,6 +83,10 @@ export default {
         font-size: 4rem;
         color: white;
         padding-bottom: 5%;
+    }
+    .carouselSize{
+        width: 90%;
+        margin: auto;
     }
     .linkIcon{
         color: white;
