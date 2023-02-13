@@ -4,20 +4,6 @@
         <div class="containerP">
            <h1 class="title">Progetti</h1>
            
-            
-                  <!--      <img src="../assets/Zalando.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/Netflix.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/Whatsapp.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/Dropbox.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/discord.png" class="d-block w-100" alt="...">-->
                 <div id="carouselExampleDark" class="carousel carousel-dark slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -30,22 +16,27 @@
                     <div class="carousel-item active" data-bs-interval="10000">
                         <img src="../assets/Zalando.png" class="imgZ d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block"></div>
+                        <div class="linkIcon text-center"><a href="https://github.com/Maino24/html-css-boolando"><i class="fa-brands fa-github"></i>https://github.com/Maino24/html-css-boolando</a></div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="../assets/Netflix.png" class="imgN d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block"></div>
+                        <div class="linkIcon text-center"><a href="https://github.com/Maino24/vue-boolflix"><i class="fa-brands fa-github"></i>https://github.com/Maino24/vue-boolflix</a></div>
                     </div>
                     <div class="carousel-item">
                         <img src="../assets/Whatsapp.png" class="imgW d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block"></div>
+                        <div class="linkIcon text-center"><a href="https://github.com/Maino24/vue-boolzapp"><i class="fa-brands fa-github"></i>https://github.com/Maino24/vue-boolzapp</a></div>
                     </div>
                     <div class="carousel-item">
                         <img src="../assets/discord.png" class="imgD d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block"></div>
-                    </div>
+                        <div class="linkIcon text-center"><a href="https://github.com/Maino24/htmlcss-discord"><i class="fa-brands fa-github"></i>https://github.com/Maino24/htmlcss-discord</a></div>
+                  </div>
                     <div class="carousel-item">
                         <img src="../assets/Dropbox.png" class="imgDrop d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block"></div>
+                        <div class="linkIcon text-center"><a href="https://github.com/Maino24/htmlcss-dropbox"><i class="fa-brands fa-github"></i>https://github.com/Maino24/htmlcss-dropbox</a></div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -93,7 +84,19 @@ export default {
         color: white;
         padding-bottom: 5%;
     }
-        
+    .linkIcon{
+        color: white;
+        padding-top: 3%;
+        i{
+            color: white;
+            padding-right: 2%;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            padding-top: 2%;
+        }
+    }
     
   }
 }
