@@ -8,23 +8,23 @@
                 <li><a href="#resume">Resume</a></li>
                 <li><a href="#contacts">Contacts</a></li>
             </ul>
-            <div class="nameImg">
+            <div class="nameImg animated bounceInDown">
                 <div class="containerName">
-                    <h1 class="name animated bounceInDown">I'm Gabriele Mainetti</h1>
-                    <h1 class="profession animated bounceInDown">Junior Full Stack Web Developer</h1>
+                    <h1 class="name">I'm Gabriele Mainetti</h1>
+                    <h1 class="profession">Junior Full Stack Web Developer</h1>
                 </div>
                 <div class="containerImg">
                     <img src="../assets/pc.webp" alt="">
                 </div>
             </div>
         </div>
-        <div class="contacts">
+        <div class="contacts animated bounceInDown">
             <div class="contactsFirst">
                 <li>
-                    <i class="fa-solid fa-house"></i><span>Sondrio, Lombardia Italia</span>
+                    <span><i class="fa-solid fa-house"></i>Sondrio, Lombardia Italia</span>
                 </li>
                 <li>
-                    <i class="fa-solid fa-envelope"></i><span>mg02.gabriele@gmail.com</span>
+                    <span><i class="fa-solid fa-envelope"></i>mg02.gabriele@gmail.com</span>
                 </li>
             </div>
             <div class="contactsSecond">
@@ -53,7 +53,7 @@ export default {
   background-color: rgb(13, 13, 207);
   //width: 100vw;
   height: 100vh;
-}
+
 
 .containerNP{
     width: 70%;
@@ -86,7 +86,7 @@ export default {
             .name{
             //padding-top: 15%;
             color: white;
-            font-size: 5rem;
+            font-size: 4rem;
             box-shadow: 10px;
             }
 
@@ -98,7 +98,7 @@ export default {
         .containerImg{
             flex-basis: 30%;
             img{
-                width: 90%
+                width: 80%
             }
         }
        
@@ -111,31 +111,33 @@ export default {
         //border: 1.5px solid white;
         display: flex;
         justify-content: space-between;
-        padding-top: 5%;
+        margin-top: 5%;
         .contactsFirst{
-            flex-basis: 40%;
+            flex-basis: 50%;
             color: white;
             li{
             list-style: none;
             //padding-top: 5%;
             font-size: 1.5rem;
             padding-top: 10%;
-                i{
-                    margin-right: 3%;
+                span{
+                    text-decoration: none;
                     color: white;
-                }
-        
+                    i{
+                        margin-right: 3%;
+                        color: white;
+                    }
+                }     
             }
         }
         .contactsSecond{
-            flex-basis: 40%;
+            flex-basis: 50%;
             color: white;
-            color: white;
-                li{
-                list-style: none;
-                //padding-top: 5%;
-                font-size: 1.5rem;
-                padding-top: 10%;
+            li{
+            list-style: none;
+            //padding-top: 5%;
+            font-size: 1.5rem;
+            padding-top: 10%;
                 a{
                     text-decoration: none;
                     color: white;
@@ -144,10 +146,9 @@ export default {
                         color: white;
                     }
                 }
-                }
-
+            }
         }
+    }
 }
-
 
 </style>
