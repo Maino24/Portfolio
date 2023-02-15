@@ -38,7 +38,7 @@ export default {
   box-sizing: border-box;
 }
 .backgroundAM{
-  border-top: 2px solid black;
+  //border-top: 2px solid black;
   background-color: rgb(5, 5, 124);
   //width: 100vw;
   height: 100vh;

@@ -8,6 +8,20 @@
                 <li><a href="#resume">Resume</a></li>
                 <li><a href="#contacts">Contacts</a></li>
             </ul>
+            <!--- hamburger menu mobile-->
+            <div class="hamburger">
+                <!---<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">-->
+                    <i class="fa-sharp fa-solid fa-bars" type="" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                <!---</button>-->
+                <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" href="#AboutMe" type="button">Chi sono</button></li>
+                    <li><button class="dropdown-item" type="button">Projects</button></li>
+                    <li><button class="dropdown-item" type="button">Esperienza</button></li>
+                    <li><button class="dropdown-item" type="button">Formazione</button></li>
+                    <li><button class="dropdown-item" type="button">Skills</button></li>
+                </ul>
+            </div>
+
             <div class="nameImg animated bounceInDown">
                 <div class="containerName">
                     <h1 class="name">I'm Gabriele Mainetti</h1>
@@ -67,6 +81,12 @@ export default {
     padding-top: 5%;
     font-size: 2rem;
     color: white;
+    .hamburger{
+        display: none;
+        i{
+            display: none;
+        }
+    }
     a{
         text-decoration: none;
         color: white;
@@ -104,7 +124,7 @@ export default {
        
     }
     
-}
+    }
     .contacts{
         width: 70%;
         margin: auto;
@@ -150,5 +170,131 @@ export default {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Media-query mobile
+@media screen and (max-width:480px){
+    .background{
+        background-color: rgb(5, 5, 124);
+        width: 100vw;
+
+        .containerNP{
+            width: 70%;
+            margin: auto;
+
+            .nav{
+            display: none;
+            
+                a{
+
+                }
+                a:hover{
+                    
+                }
+            }
+            .dropdown{
+                display: block;
+                text-align: right;
+                color: white;
+                padding-top: 5%;
+            }
+    .nameImg{
+        display: block;
+        margin: auto;
+        //justify-content: space-between;
+        padding-top: 7%;
+        text-align: center;
+        .containerName{
+            .name{
+            //padding-top: 15%;
+            color: white;
+            font-size: 2rem;
+            }
+
+            .profession{
+                color: white;
+                font-size: 1rem;
+            }
+        }
+        .containerImg{
+            img{
+                width: 50%;
+            }
+        }
+    }
+    
+    }
+    .contacts{
+        width: 70%;
+        margin: auto;
+        //border: 1.5px solid white;
+        display: block;
+        text-align: center;
+        .contactsFirst{
+            
+            color: white;
+            li{
+            list-style: none;
+            //padding-top: 5%;
+            font-size: 1.3rem;
+            padding-top: 10%;
+                span{
+                    text-decoration: none;
+                    color: white;
+                    i{
+                        margin-right: 3%;
+                        color: white;
+                    }
+                }     
+            }
+        }
+        .contactsSecond{
+            color: white;
+            li{
+            list-style: none;
+            //padding-top: 5%;
+            font-size: 1rem;
+            padding-top: 10%;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    i{
+                        margin-right: 3%;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+    
+}
+
 
 </style>

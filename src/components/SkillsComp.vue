@@ -75,6 +75,7 @@ export default {
         .logo{
           width: 15%;
           margin: 7% 7%;
+          //border: 1px solid white;
         }
       }
     }
