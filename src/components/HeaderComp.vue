@@ -81,12 +81,6 @@ export default {
     padding-top: 5%;
     font-size: 2rem;
     color: white;
-    .hamburger{
-        display: none;
-        i{
-            display: none;
-        }
-    }
     a{
         text-decoration: none;
         color: white;
@@ -95,6 +89,9 @@ export default {
         font-size: 2.5rem;
         border-bottom: 2px solid black;
     }
+    }
+    .hamburger{
+        display: none;
     }
     .nameImg{
         display: flex;
@@ -210,46 +207,40 @@ export default {
 
             .nav{
             display: none;
-            
-                a{
-
-                }
-                a:hover{
-                    
-                }
             }
-            .dropdown{
+            .hamburger{
                 display: block;
                 text-align: right;
                 color: white;
                 padding-top: 5%;
             }
-    .nameImg{
-        display: block;
-        margin: auto;
-        //justify-content: space-between;
-        padding-top: 7%;
-        text-align: center;
-        .containerName{
-            .name{
-            //padding-top: 15%;
-            color: white;
-            font-size: 2rem;
-            }
+            .nameImg{
+                display: block;
+                margin: auto;
+                //justify-content: space-between;
+                padding-top: 7%;
+                text-align: center;
+                .containerName{
+                    .name{
+                    //padding-top: 15%;
+                    color: white;
+                    font-size: 2rem;
+                    }
 
-            .profession{
-                color: white;
-                font-size: 1rem;
-            }
+                    .profession{
+                        color: white;
+                        font-size: 1rem;
+                    }
+                }
+                .containerImg{
+                    img{
+                        width: 50%;
+                    }
+                }
         }
-        .containerImg{
-            img{
-                width: 50%;
-            }
-        }
-    }
     
     }
+    
     .contacts{
         width: 70%;
         margin: auto;
