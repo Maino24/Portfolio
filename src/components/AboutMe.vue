@@ -43,7 +43,7 @@ export default {
   //width: 100vw;
   //height: 100vh;
   .containerAM{
-    padding-top: 2%;
+    //padding-top: 2%;
     width: 70%;
     margin: auto;
     color: white;
@@ -51,7 +51,7 @@ export default {
         font-size: 4rem;
     }
     .containerDown{
-        padding: 15% 0;
+        padding: 5% 0;
         display: flex;
         justify-content: space-between;
             .containerImg{
