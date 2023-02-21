@@ -46,10 +46,11 @@ export default {
   box-sizing: border-box;
 }
 .backgroundEducation{
+  padding: 5% 0;
   border-top: 2px solid black;
   background-color: rgb(5, 5, 124);
   //width: 100vw;
-  height: 100vh;
+  //height: 100vh;
   .containerEducation{
     padding-top: 2%;
     width: 70%;
