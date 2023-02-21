@@ -58,7 +58,7 @@ export default {
 .backgroundC{
   border-top: 2px solid black;
   background-color: rgb(5, 5, 124);
-  //width: 100vw;
+  width: 100%;
   //height: 100vh;
   .containerC{
     padding-top: 2%;

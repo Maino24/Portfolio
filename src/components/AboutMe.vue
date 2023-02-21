@@ -40,7 +40,7 @@ export default {
 .backgroundAM{
   //border-top: 2px solid black;
   background-color: rgb(5, 5, 124);
-  //width: 100vw;
+  width: 100%;
   //height: 100vh;
   .containerAM{
     //padding-top: 2%;
@@ -72,4 +72,81 @@ export default {
     }
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Media-query mobile
+@media screen and (max-width:480px){
+    .backgroundAM{
+        background-color: rgb(5, 5, 124);
+        //width: 100vw;
+        .containerDown{
+        padding: 5% 0;
+        display: flex;
+        justify-content: center;
+            .containerImg{
+                width: 100%;
+                height: 40vh;
+                background-image: url("../assets/imgProfilo2Portfolio.png");
+                background-size: contain,  cover;
+                background-repeat: no-repeat;
+            }    
+            .containerParag{
+                width: 100%;
+                p{
+                    padding-top: 5%;
+                    font-size: 20px;
+                }
+            }
+        }
+       
+    }
+}
+
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

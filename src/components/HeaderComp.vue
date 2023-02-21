@@ -65,7 +65,7 @@ export default {
 <style lang="scss">
 .background{
   background-color: rgb(5, 5, 124);
-  //width: 100vw;
+  width: 100%;
   height: 100vh;
 
 

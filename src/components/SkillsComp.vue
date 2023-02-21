@@ -81,4 +81,65 @@ export default {
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Media-query mobile
+@media screen and (max-width:480px){
+  .backgroundS{
+    border-top: 2px solid black;
+    background-color: rgb(5, 5, 124);
+    width: 100%;
+    //height: 100vh;
+    .containerS{
+      padding-top: 2%;
+      width: 70%;
+      margin: auto;
+      color: white;
+      .title{
+        font-size: 3rem;
+        text-align: center;
+      }
+    .containerTot{
+      width: 100%;
+      display: block;
+      padding-top: 5%;
+      .containerFront{
+        width: 100%;
+        height: 35vh;
+        border-right: 0;
+        padding-right: 0;
+        .logo{
+          width: 10%;
+          margin: 7% 7%;
+        }
+      }
+      .containerBack{
+        width: 100%;
+        //border: 1px solid white;
+        padding-left: 0;
+        .logo{
+          width: 15%;
+          margin: 7% 7%;
+          //border: 1px solid white;
+        }
+      }
+    }
+  }
+}
+}
 </style>
