@@ -104,4 +104,59 @@ export default {
     
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Media-query mobile
+@media screen and (max-width:480px){
+    .backgroundP{
+        border-top: 2px solid black;
+        background-color: rgb(5, 5, 124);
+        //width: 100vw;
+        //height: 100vh;
+        .containerP{
+            width: 70%;
+            margin: auto;
+            padding: 2% 0;
+            
+            .title{
+                font-size: 3rem;
+                color: white;
+                padding-bottom: 5%;
+                text-align: center;
+            }
+            .carouselSize{
+                width: 90%;
+                margin: auto;
+            }
+            .linkIcon{
+                color: white;
+                padding-top: 3%;
+                i{
+                    color: white;
+                    padding-right: 2%;
+                }
+                a{
+                    color: white;
+                    text-decoration: none;
+                    padding-top: 2%;
+                    font-size: 12px;
+                }
+            }
+            
+        }
+    }
+}
 </style>
