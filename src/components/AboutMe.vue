@@ -94,15 +94,26 @@ export default {
 // Media-query mobile
 @media screen and (max-width:480px){
     .backgroundAM{
-        background-color: rgb(5, 5, 124);
-        //width: 100vw;
-        .containerDown{
-        padding: 5% 0;
-        display: flex;
-        justify-content: center;
+  //border-top: 2px solid black;
+  background-color: rgb(5, 5, 124);
+  width: 100%;
+  //height: 100vh;
+  .containerAM{
+    padding-top: 0%;
+    width: 70%;
+    margin: auto;
+    color: white;
+    .titleAM{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .containerDown{
+        padding: 3% 0;
+        display: block;
+        
             .containerImg{
                 width: 100%;
-                height: 40vh;
+                height: 30vh;
                 background-image: url("../assets/imgProfilo2Portfolio.png");
                 background-size: contain,  cover;
                 background-repeat: no-repeat;
@@ -110,13 +121,15 @@ export default {
             .containerParag{
                 width: 100%;
                 p{
-                    padding-top: 5%;
-                    font-size: 20px;
+                    text-align: center;
+                    padding-top: 10%;
+                    font-size: 120%;
                 }
             }
         }
-       
     }
+  
+}
 }
 
 </style>
