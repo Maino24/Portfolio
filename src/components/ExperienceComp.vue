@@ -8,7 +8,7 @@
             <img src="../assets/logoBoolean.png" alt="">
           </div>
           <h4>Boolean Careers</h4>
-          <h4>Settembre 2022 - Marzo 2023 | 6 mesi</h4>
+          <h4 class="period">Settembre 2022 - Marzo 2023 | 6 mesi</h4>
           <p class="parag">Sviluppo di progetti ispirati a web app esistenti come: Netflix,
               Whatsapp Web, Spotify, Zoom, Zalando ... .
               <br>
@@ -17,11 +17,11 @@
           </p>
         </div>
         <div class="secondExperience">
-          <div class="d-flex">
+          <div >
             <h3>Impiegato Contabile</h3>
           </div>
           <h4>Midac S.r.l.</h4>
-          <h4>Agosto 2022 - agosto 2023 | 1 anno</h4>
+          <h4 class="period">Agosto 2022 - agosto 2023 | 1 anno</h4>
           <p class="parag">Impiegato contabile presso studio commercialista. Gestione
             contabilità, mail, chiamate per un gruppo di società
           </p>
@@ -72,4 +72,79 @@ export default {
       }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Media-query mobile
+@media screen and (max-width:480px){
+.backgroundE{
+  padding: 5% 0;
+  border-top: 2px solid black;
+  background-color: rgb(5, 5, 124);
+  width: 100%;
+  //height: 100vh;
+  text-align: center;
+  .containerE{
+    padding-top: 2%;
+    width: 70%;
+    margin: auto;
+    color: white;
+    .title{
+      font-size: 4rem;
+    }
+    .period{
+      font-size: 15px;
+    }
+    .firstExperience{
+      border-bottom: 2px solid white;
+      padding: 5% 0;
+      div{
+        img{
+          display: none;
+        width: 60px;
+        padding-left: 10px;
+        }
+      }      
+    }
+    .secondExperience{
+        //border-bottom: 2px solid white;
+        padding-top: 5%;
+      }
+  }
+}  
+}
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
