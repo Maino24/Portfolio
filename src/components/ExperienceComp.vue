@@ -112,7 +112,7 @@ export default {
     margin: auto;
     color: white;
     .title{
-      font-size: 4rem;
+      font-size: 3rem;
     }
     .period{
       font-size: 15px;
