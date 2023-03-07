@@ -17,15 +17,6 @@
           </li>
         </ul>
       </div>
-      <form ref="form" @submit.prevent="sendEmail">
-        <label>Name</label>
-        <input type="text" name="user_name">
-        <label>Email</label>
-        <input type="email" name="user_email">
-        <label>Message</label>
-        <textarea name="message"></textarea>
-        <input type="submit" value="Send">
-    </form>
     </div>
 </template>
 
@@ -59,7 +50,7 @@ export default {
   border-top: 2px solid black;
   background-color: rgb(5, 5, 124);
   width: 100%;
-  //height: 100vh;
+  height: 100vh;
   .containerC{
     padding-top: 2%;
     width: 70%;
