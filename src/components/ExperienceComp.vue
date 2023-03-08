@@ -1,5 +1,6 @@
 <template>
     <div class="backgroundE">
+      <a href="" name="esperienza"></a>
       <div class="containerE">
         <h1 class="title">Esperienza</h1>
         <div class="firstExperience">
@@ -43,8 +44,9 @@ export default {
   box-sizing: border-box;
 }
 .backgroundE{
-  padding: 5% 0;
-  border-top: 2px solid black;
+  padding-top: 10%;
+  padding-bottom: 2%;
+  //border-top: 2px solid black;
   background-color: rgb(5, 5, 124);
   width: 100%;
   //height: 100vh;
@@ -101,7 +103,7 @@ export default {
 @media screen and (max-width:480px){
 .backgroundE{
   padding: 5% 0;
-  border-top: 2px solid black;
+  //border-top: 2px solid black;
   background-color: rgb(5, 5, 124);
   width: 100%;
   //height: 100vh;

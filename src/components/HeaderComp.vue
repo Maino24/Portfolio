@@ -3,24 +3,25 @@
         <div class="containerNP">
             <ul class="nav animated bounceInDown">
                 <li><a href="#AboutMe">About Me</a></li>
-                <li><a href="">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#esperienza">Esperienza</a></li>
+                <li><a href="#formazione">Formazione</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contatti">Contatti</a></li>
             </ul>
             <!--- hamburger menu mobile-->
-            <div class="hamburger">
+            <!---<div class="hamburger">-->
                 <!---<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">-->
-                    <i class="fa-sharp fa-solid fa-bars" type="" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                    <!---<i class="fa-sharp fa-solid fa-bars" type="" data-bs-toggle="dropdown" aria-expanded="false"></i>-->
                 <!---</button>-->
-                <ul class="dropdown-menu">
+               <!--- <ul class="dropdown-menu">
                     <li><button class="dropdown-item" href="#AboutMe" type="button">Chi sono</button></li>
                     <li><button class="dropdown-item" type="button">Projects</button></li>
                     <li><button class="dropdown-item" type="button">Esperienza</button></li>
                     <li><button class="dropdown-item" type="button">Formazione</button></li>
                     <li><button class="dropdown-item" type="button">Skills</button></li>
-                </ul>
-            </div>
+                </ul>--->
+            <!--</div>-->
 
             <div class="nameImg animated bounceInDown">
                 <div class="containerName">
@@ -43,7 +44,7 @@
             </div>
             <div class="contactsSecond">
                 <li>
-                    <a href="https://www.linkedin.com/in/gabriele-mainetti/"><i class="fa-brands fa-linkedin"></i>https://www.linkedin.com/in/gabriele-mainetti</a>
+                    <a href="https://www.linkedin.com/in/gabriele-mainetti/"><i class="fa-brands fa-linkedin"></i>https://www.linkedin.com</a>
                 </li>
                 <li>
                     <a href="https://github.com/Maino24"><i class="fa-brands fa-github"></i>https://github.com/Maino24</a>
@@ -68,7 +69,6 @@ export default {
   width: 100%;
   height: 100vh;
 
-
 .containerNP{
     width: 70%;
     margin: auto;
@@ -86,8 +86,8 @@ export default {
         color: white;
     }
     a:hover{
-        font-size: 2.5rem;
-        border-bottom: 2px solid black;
+        font-size: 2.1rem;
+        border-bottom: 2px solid white;
     }
     }
     .hamburger{
@@ -199,8 +199,8 @@ export default {
 @media screen and (max-width:480px){
     .background{
         background-color: rgb(5, 5, 124);
-        width: 100vw;
-
+        width: 100%;
+        height: 65vh;
         .containerNP{
             width: 70%;
             margin: auto;
@@ -246,15 +246,15 @@ export default {
         margin: auto;
         //border: 1.5px solid white;
         display: block;
-        text-align: center;
+        //text-align: center;
         .contactsFirst{
-            
             color: white;
             li{
             list-style: none;
             //padding-top: 5%;
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             padding-top: 10%;
+            padding-left: 20px;
                 span{
                     text-decoration: none;
                     color: white;
@@ -270,8 +270,9 @@ export default {
             li{
             list-style: none;
             //padding-top: 5%;
-            font-size: 1rem;
+            font-size: 1.1rem;
             padding-top: 10%;
+            padding-left: 20px;
                 a{
                     text-decoration: none;
                     color: white;

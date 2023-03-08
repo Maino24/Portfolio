@@ -1,5 +1,6 @@
 <template>
     <div class="backgroundS">
+      <a href="" name="skills"></a>
       <div class="containerS">
         <h1 class="title">Skills</h1>
         <div class="containerTot">
@@ -42,7 +43,7 @@ export default {
   box-sizing: border-box;
 }
 .backgroundS{
-  border-top: 2px solid black;
+  //border-top: 2px solid black;
   background-color: rgb(5, 5, 124);
   //width: 100vw;
   //height: 100vh;
@@ -101,7 +102,7 @@ export default {
 // Media-query mobile
 @media screen and (max-width:480px){
   .backgroundS{
-    border-top: 2px solid black;
+    //border-top: 2px solid black;
     background-color: rgb(5, 5, 124);
     width: 100%;
     //height: 100vh;

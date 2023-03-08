@@ -1,5 +1,6 @@
 <template>
     <div class="backgroundEducation">
+      <a href="" name="formazione"></a>
       <div class="containerEducation">
         <h1 class="title">Formazione</h1>
         <div class="firstExperience">
@@ -46,8 +47,8 @@ export default {
   box-sizing: border-box;
 }
 .backgroundEducation{
-  padding: 5% 0;
-  border-top: 2px solid black;
+  padding: 3% 0;
+  //border-top: 2px solid black;
   background-color: rgb(5, 5, 124);
   width: 100%;
   //height: 100vh;
@@ -102,7 +103,7 @@ export default {
 @media screen and (max-width:480px){
 .backgroundEducation{
   padding: 5% 0;
-  border-top: 2px solid black;
+  //border-top: 2px solid black;
   background-color: rgb(5, 5, 124);
   width: 100%;
   //height: 100vh;

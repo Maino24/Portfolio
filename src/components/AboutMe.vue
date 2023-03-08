@@ -110,10 +110,8 @@ export default {
     .containerDown{
         padding: 3% 0;
         display: block;
-        
             .containerImg{
                 width: 100%;
-                height: 30vh;
                 background-image: url("../assets/imgProfilo2Portfolio.png");
                 background-size: contain,  cover;
                 background-repeat: no-repeat;
