@@ -223,7 +223,7 @@ export default {
                 .containerName{
                     .name{
                     //padding-top: 15%;
-                    color: red;
+                    color: white;
                     font-size: 2rem;
                     }
 

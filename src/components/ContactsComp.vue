@@ -110,7 +110,7 @@ export default {
   //border-top: 2px solid black;
   background-color: rgb(5, 5, 124);
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   .containerC{
     padding-top: 2%;
     width: 70%;
@@ -123,7 +123,7 @@ export default {
     li{
       list-style: none;
       //padding-top: 5%;
-      font-size: 1rem;
+      font-size: 0.9rem;
       padding-top: 10%;
         span{
           text-decoration: none;

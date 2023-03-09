@@ -256,7 +256,7 @@ export default {
   padding-top: 2px solid black;
   background-color: rgb(5, 5, 124);
   width: 100%;
-  height: 250vh;
+  height: 220vh;
   padding-bottom: 500px;
   .containerP{
     width: 70%;

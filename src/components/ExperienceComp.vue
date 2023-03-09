@@ -102,7 +102,7 @@ export default {
 // Media-query mobile
 @media screen and (max-width:480px){
 .backgroundE{
-  padding: 5% 0;
+  padding-bottom: 5%;
   //border-top: 2px solid black;
   background-color: rgb(5, 5, 124);
   width: 100%;
