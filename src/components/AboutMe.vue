@@ -100,7 +100,7 @@ export default {
   //height: 100vh;
   .containerAM{
     padding-top: 0%;
-    width: 70%;
+    width: 80%;
     margin: auto;
     color: white;
     .titleAM{

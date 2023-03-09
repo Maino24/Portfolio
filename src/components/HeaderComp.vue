@@ -203,7 +203,7 @@ export default {
         width: 100%;
         height: 75vh;
         .containerNP{
-            width: 70%;
+            width: 80%;
             margin: auto;
 
             .nav{

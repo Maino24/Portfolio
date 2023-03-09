@@ -259,7 +259,7 @@ export default {
   height: 220vh;
   padding-bottom: 500px;
   .containerP{
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 2% 0;
     

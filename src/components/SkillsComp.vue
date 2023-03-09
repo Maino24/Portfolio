@@ -108,7 +108,7 @@ export default {
     //height: 100vh;
     .containerS{
       padding-top: 2%;
-      width: 70%;
+      width: 80%;
       margin: auto;
       color: white;
       .title{

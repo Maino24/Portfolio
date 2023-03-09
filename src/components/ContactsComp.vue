@@ -110,10 +110,10 @@ export default {
   //border-top: 2px solid black;
   background-color: rgb(5, 5, 124);
   width: 100%;
-  height: 60vh;
+  height: 50vh;
   .containerC{
     padding-top: 2%;
-    width: 70%;
+    width: 80%;
     margin: auto;
     color: white;
     .title{
