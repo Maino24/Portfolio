@@ -168,7 +168,7 @@ export default {
 
 
 // Media-query tablet
-@media screen and (max-width:820px){
+@media screen and (min-width:481px) and (max-width:850px){
 .backgroundE{
   padding-top: 10%;
   padding-bottom: 2%;

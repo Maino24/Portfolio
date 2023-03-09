@@ -314,7 +314,7 @@ export default {
 
 
 /*PER TABLET*/
-@media screen and (max-width:820px){
+@media screen and (min-width:481px) and (max-width:850px){
 .background{
   background-color: rgb(5, 5, 124);
   width: 100%;

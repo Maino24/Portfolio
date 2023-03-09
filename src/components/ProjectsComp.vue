@@ -356,8 +356,8 @@ export default {
 
 
 
-
-@media screen and (max-width:820px){
+/* tablet */
+@media screen and (min-width:481px) and (max-width:850px){
 .backgroundP{
   padding-top: 2px solid black;
   background-color: rgb(5, 5, 124);
