@@ -140,4 +140,52 @@ export default {
   }
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Media-query tablet
+@media screen and (max-width:820px){
+.backgroundEducation{
+  padding: 3% 0;
+  //border-top: 2px solid black;
+  background-color: rgb(5, 5, 124);
+  width: 100%;
+  //height: 100vh;
+  .containerEducation{
+    padding-top: 2%;
+    width: 80%;
+    margin: auto;
+    color: white;
+    .title{
+      font-size: 4rem;
+    }
+   .firstExperience{
+      border-bottom: 2px solid white;
+      padding: 5% 0;
+      div{
+        img{
+        width: 60px;
+        padding-left: 10px;
+        }
+      }      
+    }
+    .secondExperience{
+        //border-bottom: 2px solid white;
+        padding-top: 5%;
+      }
+  }
+}
+}
 </style>
