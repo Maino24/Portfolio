@@ -130,6 +130,65 @@ export default {
 }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Media-query tablet
+@media screen and (max-width:820px){
+  .backgroundAM{
+  //border-top: 2px solid black;
+  background-color: rgb(5, 5, 124);
+  width: 100%;
+  //height: 100vh;
+  .containerAM{
+    //padding-top: 2%;
+    width: 80%;
+    margin: auto;
+    color: white;
+    .titleAM{
+        font-size: 4rem;
+    }
+    .containerDown{
+        padding: 5% 0;
+        display: block;
+        justify-content: space-between;
+            .containerImg{
+                width: 100%;
+                height: 40vh;
+                background-image: url("../assets/imgProfilo2Portfolio.png");
+                background-size: contain,  cover;
+                background-repeat: no-repeat;
+            }    
+            .containerParag{
+                width: 100%;
+                p{
+                    padding-top: 5%;
+                    font-size: 1.5rem ;
+                }
+            }
+        }
+    }
+  
+}
+}
+
 </style>
 
 
