@@ -200,7 +200,7 @@ export default {
     .background{
         background-color: rgb(5, 5, 124);
         width: 100%;
-        height: 65vh;
+        height: 75vh;
         .containerNP{
             width: 70%;
             margin: auto;
@@ -223,7 +223,7 @@ export default {
                 .containerName{
                     .name{
                     //padding-top: 15%;
-                    color: white;
+                    color: red;
                     font-size: 2rem;
                     }
 
@@ -252,7 +252,7 @@ export default {
             li{
             list-style: none;
             //padding-top: 5%;
-            font-size: 1.1rem;
+            font-size: 1rem;
             padding-top: 10%;
             padding-left: 20px;
                 span{
@@ -270,7 +270,7 @@ export default {
             li{
             list-style: none;
             //padding-top: 5%;
-            font-size: 1.1rem;
+            font-size: 1rem;
             padding-top: 10%;
             padding-left: 20px;
                 a{
