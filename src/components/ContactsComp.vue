@@ -54,7 +54,7 @@ export default {
   //border-top: 2px solid black;
   background-color: rgb(5, 5, 124);
   width: 100%;
-  //height: 100vh;
+  height: 110vh;
   padding-top: 8%;
   .containerC{
     padding-top: 2%;
