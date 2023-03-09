@@ -25,7 +25,8 @@
 
             <div class="nameImg animated bounceInDown">
                 <div class="containerName">
-                    <h1 class="name">I'm Gabriele Mainetti</h1>
+                    <h1 class="name">I'm</h1>
+                    <h1 class="name">Gabriele Mainetti</h1>
                     <h1 class="profession">Junior Full Stack Web Developer</h1>
                 </div>
                 <div class="containerImg">
@@ -289,4 +290,133 @@ export default {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PER TABLET*/
+@media screen and (max-width:820px){
+.background{
+  background-color: rgb(5, 5, 124);
+  width: 100%;
+  height: 90vh;
+
+.containerNP{
+    width: 80%;
+    margin: auto;
+
+    .nav{
+    display: flex;
+    margin: auto;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 5%;
+    font-size: 1.5rem;
+    color: white;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        font-size: 1.6rem;
+        border-bottom: 2px solid white;
+    }
+    }
+    .hamburger{
+        display: none;
+    }
+    .nameImg{
+        display: flex;
+        //margin: auto;
+        justify-content: space-between;
+        padding-top: 7%;
+        .containerName{
+            flex-basis: 70%;
+            .name{
+            //padding-top: 15%;
+            color: white;
+            font-size: 3rem;
+            box-shadow: 10px;
+            }
+
+            .profession{
+                color: white;
+                font-size: 1.7rem;
+            }
+        }
+        .containerImg{
+            flex-basis: 30%;
+            img{
+                width: 80%;
+                //display: none;
+            }
+        }
+       
+    }
+    
+    }
+    .contacts{
+        width: 70%;
+        margin: auto;
+        //border: 1.5px solid white;
+        display: block;
+        //text-align: center;
+        .contactsFirst{
+            color: white;
+            li{
+            list-style: none;
+            //padding-top: 5%;
+            font-size: 1.8rem;
+            padding-top: 10%;
+            padding-left: 20px;
+                span{
+                    text-decoration: none;
+                    color: white;
+                    i{
+                        margin-right: 3%;
+                        color: white;
+                    }
+                }     
+            }
+        }
+        .contactsSecond{
+            color: white;
+            li{
+            list-style: none;
+            //padding-top: 5%;
+            font-size: 1.8rem;
+            padding-top: 10%;
+            padding-left: 20px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    i{
+                        margin-right: 3%;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+}
 </style>
