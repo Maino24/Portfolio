@@ -137,4 +137,60 @@ export default {
   }
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Media-query tablet
+@media screen and (max-width:820px){
+  .backgroundC{
+  //border-top: 2px solid black;
+  background-color: rgb(5, 5, 124);
+  width: 100%;
+  height: 80vh;
+  padding-top: 8%;
+  .containerC{
+    padding-top: 2%;
+    width: 80%;
+    margin: auto;
+    color: white;
+    .title{
+      font-size: 4rem;
+    }
+    li{
+      list-style: none;
+      padding-top: 5%;
+      font-size: 2rem;
+      
+      i{
+        padding-right: 3%;
+        color: white;
+      }
+
+      a{
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+}
 </style>

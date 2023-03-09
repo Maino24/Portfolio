@@ -143,4 +143,64 @@ export default {
   }
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Media-query tablet
+@media screen and (max-width:820px){
+  .backgroundS{
+    //border-top: 2px solid black;
+    background-color: rgb(5, 5, 124);
+    width: 100%;
+    //height: 100vh;
+    .containerS{
+      padding-top: 2%;
+      width: 80%;
+      margin: auto;
+      color: white;
+      .title{
+        font-size: 4rem;
+        text-align: left;
+      }
+    .containerTot{
+      width: 100%;
+      display: block;
+      padding-top: 5%;
+      .containerFront{
+        width: 100%;
+        height: 35vh;
+        border-right: 0;
+        padding-right: 0;
+        .logo{
+          width: 10%;
+          margin: 7% 7%;
+        }
+      }
+      .containerBack{
+        width: 100%;
+        //border: 1px solid white;
+        padding-left: 0;
+        padding-top: 15%;
+        .logo{
+          width: 15%;
+          margin: 7% 7%;
+          //border: 1px solid white;
+        }
+      }
+    }
+  }
+}
+}
 </style>
