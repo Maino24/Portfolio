@@ -56,9 +56,9 @@
                             <img src="../assets/bnb.png" class="card-img-top" alt="...">
                             <div class="projectsTitles">AIRBNB</div>
                             <div class="card-body">
-                                <a href="https://github.com/Maino24/html-css-boolando">
+                                <a href="">
                                     <button class="button">
-                                        Code
+                                        Lavori in corso ...
                                         <i class="fa-brands fa-github"></i>
                                     </button>
                                 </a>
