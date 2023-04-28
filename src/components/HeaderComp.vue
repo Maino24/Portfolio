@@ -37,7 +37,7 @@
         <div class="contacts animated bounceInDown">
             <div class="contactsFirst">
                 <li>
-                    <span><i class="fa-solid fa-house"></i>Sondrio, Lombardia Italia</span>
+                    <span><i class="fa-solid fa-house"></i>Ardenno, Sondrio, Lombardia Italia</span>
                 </li>
                 <li>
                     <span><i class="fa-solid fa-envelope"></i>mg02.gabriele@gmail.com</span>
